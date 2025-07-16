@@ -1,7 +1,6 @@
-# 🤖 AI Desktop Assistant (GUI & CLI Version)
+# AI Desktop Assistant (GUI & CLI Version)
 
-## 📌 Overview
-
+## Overview
 An **offline AI-powered desktop assistant** that uses a local LLM (**phi3 via Ollama**) to understand natural language commands and perform system-level tasks such as:
 
 - 🔆 Adjusting screen brightness
@@ -16,11 +15,11 @@ Supports both **GUI (Tkinter)** and **CLI** modes.
 - **LLM Model:** [phi3](https://ollama.com/library/phi3)
 - **LLM Runtime:** [Ollama](https://ollama.com/)
 - **LangChain Integration:** For structured command interpretation
-- **Offline:** ✅ Fully local, no internet needed
+- **Offline:**  Fully local, no internet needed
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repository (optional)
 bash
@@ -50,11 +49,11 @@ bash
 ollama pull phi3
 ollama run phi3
 
-> ⚠️ **Note:** Ollama must be running in the background for the assistant to work.
+ **Note:** Ollama must be running in the background for the assistant to work.
 
-## 🖥️ How to Run
+##  How to Run
 
-### ▶️ CLI Version
+### CLI Version
 bash
 python cli_main.py
 
@@ -66,9 +65,9 @@ python gui_main.py
 
 ---
 
-## 💬 Supported Commands (Examples)
+##  Supported Commands (Examples)
 
-| 🔤 User Says                         | ⚙️ Interpreted As              |
+|  User Query                         |  Interpreted As              |
 |-------------------------------------|--------------------------------|
 | Set brightness to 70                | `adjust_brightness 70`         |
 | Increase brightness by 20           | `increase_brightness 20`       |
@@ -84,7 +83,7 @@ python gui_main.py
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 .
 ├── cli_main.py         # CLI assistant logic
@@ -93,9 +92,9 @@ python gui_main.py
 ├── README.md           # Project documentation
 └── venv/               # Virtual environment folder
 
-## ⚠️ Notes
+##  Notes
 
-- ✅ Supports only **Windows OS**
-- 🔧 App paths (like Notepad++ or calculator) may need to be updated inside `open_app()` function
-- ➕ Default volume/brightness adjustment is **±10%** if no value is given
-- 🎯 Works best with `phi3` via Ollama
+-  Supports only **Windows OS**
+-  App paths (like Notepad++ or calculator) may need to be updated inside `open_app()` function
+-  Default volume/brightness adjustment is **±10%** if no value is given
+-  Works best with `phi3` via Ollama
