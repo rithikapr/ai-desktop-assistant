@@ -1,0 +1,9 @@
+langchain
+langchain-community
+pillow
+screen-brightness-control
+pydantic
+SQLAlchemy
+psutil
+pycaw
+ttkbootstrap 
